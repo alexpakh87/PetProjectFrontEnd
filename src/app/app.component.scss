@@ -1,16 +1,10 @@
 .name_project {
-  //  position: absolute;
-  //  width: 345px;
-  //  height: 55px;
-  //  left: 70px;
-  //  top: -69px;
-  //
-  // font-family: Inter, serif;
-  // font-style: normal;
-  // font-weight: 400;
+
+  width: 360px;
+
   font-size: 64px;
   line-height: 40px;
-  //
+
   color: #28B3C6;
 }
 
@@ -21,7 +15,7 @@
 //  height: 34px;
 //  left: 395px;
 //  top: 9px;
-//
+
 //  font-family: Inter, serif;
 //  font-style: normal;
 //  font-weight: 400;
@@ -80,19 +74,26 @@
 .container_header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 
 }
 
-.item1 {
-  display: flex;
+
+.tel_number_and_email {
+  width: 360px;
+}
+
+.address_and_work_time {
+  width: 360px;
 
 }
 
 .enter_or_registration {
+  width: 360px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 
 
 }
