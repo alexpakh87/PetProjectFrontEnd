@@ -1,23 +1,72 @@
-<body>
+<body xmlns="http://www.w3.org/1999/html">
 
-  <div class="container_header">
-    <div class="name_project">arenda.ru</div>
+<div class="main-container">
+  <header class="header-container">
 
-    <div class="tel_number_and_email">
-      <p class="telephone_number">8-8462-265-65-33</p>
-      <p class="email">info@arenda.ru</p>
+
+    <div><a class="logo" href="#">areanda.ru</a></div>
+
+    <div class="phone-email">
+      <fa-icon [icon]="['fas','phone']" class="orange-icon"></fa-icon>
+      8-8462-265-65-33 <br>
+      <fa-icon [icon]="['far', 'envelope']" class="orange-icon"></fa-icon>
+      info@arenda.ru
     </div>
 
-    <div class="address_and_work_time">
-      <p class="address">Самара, Московское шоссе, 18</p>
-      <p class="work_time">Режим работы: ежедневно с 9:00 до 18:00</p>
+    <div class="address-time-work">
+      <fa-icon [icon]="['fas', 'location-dot']" class="orange-icon"></fa-icon>
+      Самара, Московское шосее, 18 <br>
+      <fa-icon [icon]="['far', 'clock']" class="orange-icon"></fa-icon>
+      Режим работы: ежедневно 9:00-18:00
     </div>
 
-    <div class="enter_or_registration">
-      <div><p class="enter">Вход</p></div>
-      <div><p class="or(|)">|</p></div>
-      <div><p class="registration">Регистрация</p></div>
+    <div class="enter-or-registration"><a class="link-enter-or-registration" href="#">вход</a>|
+      <a class="link-enter-or-registration" href="#">регистрация</a>
     </div>
 
+    <div class="cart-shopping-icon"><a href="#">
+      <fa-icon [icon]="['fas', 'cart-shopping']" class="orange-icon"></fa-icon>
+    </a>
+    </div>
+
+  </header>
+
+  <nav class="header-nav">
+    <div><a class="header-link" href="#">главная </a></div>
+    <div><a class="header-link" href="#">каталог оборудования </a></div>
+    <div><a class="header-link" href="#">условия аренды </a></div>
+    <div><a class="header-link" href="#">оплта и доставка </a></div>
+    <div><a class="header-link" href="#">о компании </a></div>
+    <div><a class="header-link" href="#">контакты </a></div>
+  </nav>
+
+  <div class="banner">
+    <img src="../assets/img/Banner.jpg" alt="ban" class="banner-img">
   </div>
+
+  <footer class="footer-container">
+
+    <div class="information-footer">
+      <div class="footer-div-head">Информация</div>
+      <div><a class="footer-link" href="#">Статьи</a></div>
+      <div><a class="footer-link" href="#">Политика приватности</a></div>
+      <div><a class="footer-link" href="#">Услововия использования</a></div>
+    </div>
+
+    <div class="additionally-footer">
+      <div class="footer-div-head">Дополнительно</div>
+      <div><a class="footer-link" href="#">Партнерская программа</a></div>
+      <div><a class="footer-link" href="#">Акции</a></div>
+    </div>
+
+    <div class="client-area-footer">
+      <div class="footer-div-head">Личный кабинет</div>
+      <div><a class="footer-link" href="#">Личный кабинет</a></div>
+      <div><a class="footer-link" href="#">История заказов</a></div>
+    </div>
+
+    <div class="samara2022">Прокат инстумента в Самаре 2022</div>
+  </footer>
+
+</div>
 </body>
