@@ -4,7 +4,7 @@
   <header class="header-container">
 
 
-    <div><a class="logo" href="#">areanda.ru</a></div>
+    <div><a class="logo" href="#">arenda.ru</a></div>
 
     <div class="phone-email">
       <fa-icon [icon]="['fas','phone']" class="orange-icon"></fa-icon>
@@ -70,3 +70,27 @@
 
 </div>
 </body>
+
+
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="/users-list">Show Users</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="/add-user">Главная</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+
+  <router-outlet></router-outlet>
+</div>
+
+
+
+
+
+
+
