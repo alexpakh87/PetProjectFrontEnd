@@ -8,13 +8,13 @@ import { User } from '../models/user';
 })
 export class UserService {
 
-  private baseURL = "http://localhost:8080/api/rent/customers";
+  private baseURL = "https://app.swift.netcraze.pro/api";
 
 
   constructor(private httpClient: HttpClient) { }
 
   getUsersList(): Observable<User[]> {
-    return this.httpClient.get<User[]>(`${this.baseURL}`);
+    return this.httpClient.get<User[]>(`${this.baseURL}/all_customers`);
   }
 
   userSignup(user: User): Observable<User> {
